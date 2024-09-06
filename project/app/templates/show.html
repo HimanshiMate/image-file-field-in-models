@@ -1,0 +1,5 @@
+{% for i in data %}
+    {{i.stu_name}}
+    <img src="/media/{{i.stu_image}}" alt="" width="200px" height="200px">
+    <a href="/media/{{i.stu_resume}}" download>Resume</a>
+{% endfor %}
